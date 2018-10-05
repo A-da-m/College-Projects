@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+strong {
+    font-weight: 900;
+}
+
+h1 {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    font-weight: 500;
+}
+
+#footer {
+    position: relative;
+    height: 50px;
+    margin-top: -50px;
+    clear: both;
+    width: 100%;
+    background-color: #000000;
+    padding-left: 16px;
+    text-align: left;
+    color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#main {
+    float: left;
+    padding-left: 16px;
+}
+#main h2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+#main p{
+    font-size: 17px;
+    line-height: 30px;
+}
+
+#main p strong {
+    color: rgb(30, 64, 255);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#introbox {
+    border-radius: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#side {
+    float: left;
+    padding-right: 16;
+    padding-left: 106px;
+}
+
+#side h2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#side ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+.nav {
+    background-color: #000000;
+    overflow: hidden;
+    font-weight: 500;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav a.active {
+    background-color: rgb(30, 64, 255);
+    color: white;
+    font-weight: 900;
+}
